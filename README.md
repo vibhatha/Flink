@@ -62,6 +62,9 @@ Basic configurations are done, if you have completed these steps.
  
  Version: 1.2.1, Commit ID: 76eba4e
 
+## References
+
+https://ci.apache.org/projects/flink/flink-docs-release-0.8/setup_quickstart.html
  
     
 
