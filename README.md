@@ -48,13 +48,20 @@ Basic configurations are done, if you have completed these steps.
  
  After completing the configuration section. The cluster can be started by executing the following commands.
  
- ##### ./$FLINK_HOME/bin/start_cluster.sh
+ ##### start_cluster.sh
  
  In order to stop the cluster, execute the following command. 
  
- ##### ./$FLINK_HOME/bin/stop_cluster.sh
+ ##### stop_cluster.sh
  
+ ## Running Example Programme
  
+ ##### flink run -p 1 examples/batch/WordCount.jar --input ../data/hamlet.txt --output result.txt
+ 
+ ## Flink Version
+ 
+ Version: 1.2.1, Commit ID: 76eba4e
+
  
     
 
