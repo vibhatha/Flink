@@ -40,7 +40,7 @@ There are plenty of tutorials that can be found in the web to do this configurat
   
 4. When you add the tmp directory for taskmanager, make sure you go and create this directory in each node and provide necessary read/write access. To do so, just follow the guidelines mentioned below.
 
-  ###### chmod 777 /scratch/vibhatha/*
+    ###### chmod 777 /scratch/vibhatha/*
 Basic configurations are done, if you have completed these steps. 
 
 
