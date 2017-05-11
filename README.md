@@ -30,12 +30,12 @@ There are plenty of tutorials that can be found in the web to do this configurat
 
 3. Add some more configurations 
 
-  ##### jobmanager.heap.mb: 4096
-  ##### taskmanager.heap.mb: 98304
-  ##### taskmanager.numberOfTaskSlots: 64
-  ##### taskmanager.network.numberOfBuffers: 196608
-  ##### taskmanager.tmp.dirs: /scratch/vibhatha/flink/tmp
-  ##### fs.hdfs.hadoopconf: /N/u/vibhatha/deploy/hadoop-2.7.3/etc/hadoop
+    ##### jobmanager.heap.mb: 4096
+    ##### taskmanager.heap.mb: 98304
+    ##### taskmanager.numberOfTaskSlots: 64
+    ##### taskmanager.network.numberOfBuffers: 196608
+    ##### taskmanager.tmp.dirs: /scratch/vibhatha/flink/tmp
+    ##### fs.hdfs.hadoopconf: /N/u/vibhatha/deploy/hadoop-2.7.3/etc/hadoop
   Use hdfs file location if and only if you are using hdfs file system for data loading. 
   
 4. When you add the tmp directory for taskmanager, make sure you go and create this directory in each node and provide necessary read/write access. To do so, just follow the guidelines mentioned below.
